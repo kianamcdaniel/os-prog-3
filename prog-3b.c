@@ -5,6 +5,7 @@
 //  Created by Kiana McDaniel on 11/1/18.
 //
 
+#define _GNU_SOURCE
 #include <stdio.h>
 #include <pthread.h>
 #include <math.h>

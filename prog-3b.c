@@ -8,6 +8,7 @@
 #include <stdio.h>
 #include <pthread.h>
 #include <math.h>
+#define _GNU_SOURCE
 
 int fund = 4000;
 int award = 0;

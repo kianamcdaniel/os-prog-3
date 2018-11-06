@@ -47,9 +47,9 @@ void *calc_fund(){
         //pthread_mutex_lock(&mutex);
         
         int award = ceil(fund * 0.25);
+        sleep(1);
         fund -= award;
         printf("%c = %d\n", stu_id, award);
-        sleep(1);
         total_award += award;
         
         //pthread_mutex_unlock(&mutex);
